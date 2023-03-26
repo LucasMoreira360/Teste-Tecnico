@@ -1,14 +1,13 @@
+import { Header } from "../components/header";
 import React from "react";
 import styled from "styled-components";
 
 export default function Home() {
   return (
-    <>
-      <PageContainerStyle>TA FUNCIONANDO</PageContainerStyle>
-    </>
+    <div>
+      <Header />
+    </div>
   );
 }
 
-export const PageContainerStyle = styled.div`
-  background: blue;
-`;
+export const PageContainerStyle = styled.div``;
