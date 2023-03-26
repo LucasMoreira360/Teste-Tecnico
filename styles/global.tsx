@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   }
   html{
-      font : 500 16px "Inter", sans-serif
+      font : "Inter", sans-serif
   }
 `;
 

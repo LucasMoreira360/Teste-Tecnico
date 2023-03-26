@@ -1,25 +1,24 @@
 import Image from "next/image";
-import Link from "next/link";
 import Logo from "../../public/img/logo.png";
+import { Button, Container, Menu } from "./styles";
 
 export function Header() {
+  const styleFont = {
+    color: "#00B6DE",
+  };
+
   return (
-    <div className="Container">
-      <div className="logotipo">
-        <Image src={Logo} alt="" />
-      </div>
-      <div className="menu">
-        <ul>
-          <li>
-            <Link href="/">Omni trafo</Link>
-          </li>
+    <Container>
+      <Image src={Logo} alt="" />
+
+      <Menu>
+        <div className="styleMenu">
+          <li style={styleFont}>Omni trafo</li>
           <li>Sinalizador de faltas</li>
           <li>Acoplador DP</li>
-        </ul>
-      </div>
-      <div className="action">
-        <button>Comprar agora</button>
-      </div>
-    </div>
+        </div>
+      </Menu>
+      <Button>Comprar agora</Button>
+    </Container>
   );
 }
