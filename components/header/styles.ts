@@ -16,9 +16,10 @@ export const Menu = styled.div`
     align-items: center;
     justify-content: space-around;
     margin-left: 700px;
-    gap: 48px;
+    gap: 100px;
     font-size: 16px;
     font-style: normal;
+    font-family: "Inter";
     font-weight: bold;
     list-style-type: none;
   }

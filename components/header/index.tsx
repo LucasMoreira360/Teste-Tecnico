@@ -9,8 +9,7 @@ export function Header() {
 
   return (
     <Container>
-      <Image src={Logo} alt="" />
-
+      <Image src={Logo} alt="Logo" />
       <Menu>
         <div className="styleMenu">
           <li style={styleFont}>Omni trafo</li>
