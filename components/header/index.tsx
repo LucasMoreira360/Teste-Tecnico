@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Logo from "../../public/img/logo.png";
-import { Button, Container, Menu } from "./styles";
+import { Container, Menu } from "./styles";
+import Button from "../button";
 
 export function Header() {
   const styleFont = {
@@ -17,7 +18,8 @@ export function Header() {
           <li>Acoplador DP</li>
         </div>
       </Menu>
-      <Button>Comprar agora</Button>
+      
+      <Button title="Comprar agora" />
     </Container>
   );
 }

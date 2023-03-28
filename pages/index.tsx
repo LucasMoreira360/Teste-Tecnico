@@ -1,13 +1,12 @@
-import { Header } from "../components/header";
 import React from "react";
-import styled from "styled-components";
+import { Welcome } from "@/components/welcome";
+import { Header } from "../components/header";
 
 export default function Home() {
   return (
     <div>
       <Header />
+      <Welcome />
     </div>
   );
 }
-
-export const PageContainerStyle = styled.div``;
