@@ -5,7 +5,6 @@ export const PageContainer = styled.div`
   height: 100%;
   max-width: 1920px;
   background: #1b2033;
-  margin: 0 auto;
   color: #fff;
 `;
 
@@ -56,15 +55,14 @@ export const Paragraph = styled.p`
 `;
 
 export const LogoGroup = styled.div`
-  display: flex;
-  width: 242.65px;
-  height: 248px;
+  position: absolute;
+  width: 145.9px;
+  height: 141.1px;
 
   .LogoImage {
     width: 100%;
     height: 50%;
   }
-
   .LogoRectangle {
     width: 100px;
     height: 200px;

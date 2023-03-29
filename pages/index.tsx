@@ -2,7 +2,10 @@ import React from "react";
 import { Welcome } from "@/components/welcome";
 import { Header } from "../components/header";
 import { Feature } from "@/components/feature";
-import { Section } from "@/components/section";
+import { Section } from "@/components/sectionone";
+import { SectionTwo } from "@/components/sectiontwo";
+import { SectionThre } from "@/components/sectionthree";
+import { SectionFour } from "@/components/sectionfour";
 
 export default function Home() {
   return (
@@ -11,6 +14,9 @@ export default function Home() {
       <Welcome />
       <Feature />
       <Section />
+      <SectionTwo />
+      <SectionThre />
+      <SectionFour />
     </div>
   );
 }

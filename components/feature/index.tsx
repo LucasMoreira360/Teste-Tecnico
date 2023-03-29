@@ -31,7 +31,7 @@ export function Feature() {
           <Image src={Confirma} alt="SVG" />
           <Image src={Confirma} alt="SVG" />
         </div>
-        <div className="textdebosta">
+        <div className="text">
           <text>Monitoramento inteligente de ativos</text>
 
           <br />

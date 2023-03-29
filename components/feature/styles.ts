@@ -73,7 +73,7 @@ export const Section = styled.div`
     align-items: center;
     justify-content: space-between;
   }
-  .textdebosta {
+  .text{
     position: absolute;
     width: 342px;
     height: 23px;
