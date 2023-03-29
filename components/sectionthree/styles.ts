@@ -39,7 +39,7 @@ export const Section = styled.div`
   .imageConfirma {
     position: absolute;
     width: 570px;
-    height: 351px;
+    height: 341px;
     margin-left: -121px;
     margin-top: 510px;
     display: flex;

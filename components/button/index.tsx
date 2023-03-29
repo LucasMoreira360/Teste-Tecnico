@@ -4,6 +4,7 @@ import { Buttonfx } from "./styles";
 interface Props {
   title: string;
   style?: React.CSSProperties;
+  position?:string | undefined;
 }
 
 const Button: FC<Props> = ({ title, style }) => {
