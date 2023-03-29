@@ -23,9 +23,9 @@ export const Menu = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 70%;
+    margin-left: 80%;
     margin-right: auto;
-    gap: 20%;
+    gap: 250%;
     font-size: 16px;
     font-style: normal;
     font-family: "Inter";

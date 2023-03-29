@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const PageContainer = styled.nav`
   display: flex;
   background-color: #1b2033;
-  height: 100vh;
+  height: 100%;
   max-width: 1920px;
   margin: 0 auto;
 
@@ -20,11 +20,12 @@ export const PageContainer = styled.nav`
 export const Section = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 47px 70px ;
+  padding: 47px 70px;
   color: #fdfdfd;
   gap: 0px;
 
   .firstText {
+    width: 800px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
@@ -34,13 +35,13 @@ export const Section = styled.div`
   }
 
   .secondText {
+    width: 768px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     margin-bottom: 230px;
-
   }
 
   @media (max-width: 1920px) {
@@ -80,32 +81,27 @@ export const Aside = styled.div`
   img {
     width: 550px;
     height: 750px;
+    margin-left: 340px;
   }
 `;
 
 export const Article = styled.div`
-  position: relative;
-  margin-bottom:50px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #00b6de;
+  right: 0;
+  bottom: 0;
+  margin-right: 150px;
+  margin-bottom: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .WhatsappContainer {
-    position: absolute;
-    width: 118px;
-    height: 118px;
-    background-color: #00b6de;
-    right: 0;
-    bottom: 0;
-    margin-right: 150px;
-    margin-bottom: 250px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  WhatsappIcon{
+  .WhatsappIcon {
     width: 50px;
     height: 50px;
-    background-color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;

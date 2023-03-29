@@ -54,9 +54,9 @@ export function Welcome() {
         <Image className="img" src={FirstImage} alt="image" />
       </Aside>
       <Article>
-        <div className="WhatsappContainer">
+        
           <Image className="WhatsappIcon" src={WhatsIcon} alt="icon" />
-        </div>
+        
       </Article>
     </PageContainer>
   );
