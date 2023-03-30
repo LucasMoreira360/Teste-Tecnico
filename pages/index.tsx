@@ -6,6 +6,8 @@ import { Section } from "@/components/sectionone";
 import { SectionTwo } from "@/components/sectiontwo";
 import { SectionThre } from "@/components/sectionthree";
 import { SectionFour } from "@/components/sectionfour";
+import { SectionFive } from "@/components/sectionfive";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <SectionTwo />
       <SectionThre />
       <SectionFour />
+      <SectionFive />
+      <Footer />
     </div>
   );
 }
