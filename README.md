@@ -54,7 +54,7 @@ Abrir [http://localhost:3000](http://localhost:3000)com seu navegador para ver o
 
 ###  6 - section 4
 
-![ Guia de pesquisa ](https://github.com/Lucasdfg07/Spotify_clone/blob/master/public/readme_photos/10.png)
+![ Guia de pesquisa ](https://github.com/LucasMoreira360/Teste-Tecnico/blob/main/Readme/section%205.png)
 
 ###  7 - section 5
 
